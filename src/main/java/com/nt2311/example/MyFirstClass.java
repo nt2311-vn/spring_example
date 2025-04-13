@@ -1,8 +1,8 @@
 package com.nt2311.example;
 
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
-@Component
+@Service
 public class MyFirstClass {
 
   public String sayHello() {
