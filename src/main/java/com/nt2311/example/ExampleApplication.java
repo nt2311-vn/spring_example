@@ -13,5 +13,6 @@ public class ExampleApplication {
     System.out.println(myFirstService.tellAStory());
     System.out.println(myFirstService.getJavaVersion());
     System.out.println(myFirstService.getOSName());
+    System.out.println(myFirstService.readProp());
   }
 }
