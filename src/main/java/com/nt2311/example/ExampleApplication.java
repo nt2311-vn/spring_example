@@ -11,5 +11,6 @@ public class ExampleApplication {
 
     MyFirstService myFirstService = ctx.getBean(MyFirstService.class);
     System.out.println(myFirstService.tellAStory());
+    System.out.println(myFirstService.getJavaVersion());
   }
 }
