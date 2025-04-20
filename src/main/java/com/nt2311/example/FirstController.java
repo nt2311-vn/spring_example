@@ -9,4 +9,9 @@ public class FirstController {
   public String sayHello() {
     return "Hello from my first controller";
   }
+
+  @GetMapping("/hello-2")
+  public String sayHello2() {
+    return "Hello 2 from my first controller";
+  }
 }
