@@ -15,6 +15,7 @@ public class MyFirstService {
 
   private final MyFirstClass myFirstClass;
 
+  @Value("${my.custom.property}")
   private String customProperty;
 
   @Value("${my.prop}")
