@@ -14,5 +14,6 @@ public class ExampleApplication {
     System.out.println(myFirstService.getCustomProperty());
     System.out.println(myFirstService.getCustomPropertyInt());
     System.out.println(myFirstService.getCustomPropertyFromAnotherFile());
+    System.out.println(myFirstService.getCustomPropertyFromAnotherFile2());
   }
 }
